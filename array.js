@@ -31,4 +31,4 @@ menu.forEach((item)=>{
   let p = document.createElement('p');
   p.innerText = item;
   document.querySelector('#menu').appendChild(p);
-})
+});
