@@ -1,4 +1,4 @@
-let menu = [
+var menu = [
 "Macaroni met ham en kaas",
 "Tagliatelli met ham en kaas",
 "Spaghetti met spinazie en room",
@@ -23,3 +23,12 @@ let menu = [
  "Lasagne met spinazie en tomatensaus en kaas");
 
  console.log(menu.length);
+
+menu.forEach(function(item, index, array){
+  console.log(item, index);
+});
+menu.forEach((item)=>{
+  let p = document.createElement('p');
+  p.innerText = item;
+  document.querySelector('#menu').appendChild(p);
+})
