@@ -1,4 +1,4 @@
-var menu = [
+let menu = [
 "Macaroni met ham en kaas",
 "Tagliatelli met ham en kaas",
 "Spaghetti met spinazie en room",
